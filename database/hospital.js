@@ -8,8 +8,7 @@ const kharari = [
         city: "Sasaram",
         address: "Lokhwandi Road, Railway Station, Sasaram",
         pincode: "821111",
-        lat: "24.952430",
-        lon: "84.060427"
+        map_add:"X335+6V9, Admapur, Bihar 821115, India"
     }, {
         id:"hospital2",
         name: "Maharishi Hospital",
@@ -17,8 +16,7 @@ const kharari = [
         city: "Sasaram",
         address: "Patel Nagar, Sasaram",
         pincode: "821108",
-        lat: "24.942158",
-        lon: "84.021949"
+        map_add:"W2VC+6PG, Nooran Ganj, Sasaram, Bihar 821115, India"
     }, {
         id:"hospital3",
         name: "Amala Ayurvedic",
@@ -26,8 +24,7 @@ const kharari = [
         city: "kaimur",
         address: "Block Road, kaimur",
         pincode: "821108",
-        lat: "24.948695",
-        lon: "84.004085"
+        map_add:"Prabhakar Road,Rouza Road No-1, near sher-sah suri tomb, Saket Nagar Colony, Sasaram, Bihar 821115, India"
     }, {
         id:"hospital4",
         name: "Sreedhareeyam Research Center",
@@ -35,8 +32,7 @@ const kharari = [
         city: "kaimur",
         address: "Station Road , Dehri",
         pincode: "821108",
-        lat: "24.958345",
-        lon: "84.021277"
+        map_add:"railway station sasaram ward no 7 821115 gopalganj, Mohaddiganj, Sasaram, Bihar 821115, India"
     }
 ]
 
@@ -48,8 +44,7 @@ const delhi = [
         city: "delhi",
         address: "Bakarganj , New Delhi",
         pincode: "201012",
-        lat: "28.593735",
-        lon: "77.199223"
+        map_add:"NWC Ground, 15208, Lok Kalyan Marg, Chanakyapuri, New Delhi, Delhi 110003, India"
     }, {
         id:"hospital6",
         name: "Sahaya Hospital",
@@ -57,63 +52,11 @@ const delhi = [
         city: "delhi",
         address: "Chandani Chowk , New Delhi",
         pincode: "201014",
-        lat: "28.632314",
-        lon: "77.243197"
-    }, {
-        id:"hospital7",
-        name: "Punarnava Ayurveda",
-        image:`${base_url}/image/hospital/7`,
-        city: "delhi",
-        address: "Chandani Chowk , New Delhi",
-        pincode: "201014",
-        lat: "28.643161",
-        lon: "77.184107"
-    }
-]
-
-const kolkata = [
-    {
-        id:"hospital8",
-        name: "Kalari Healthcare",
-        image:`${base_url}/image/hospital/8`,
-        city: "kolkata",
-        address: "Saltlake , Kolkata",
-        pincode: "700064",
-        lat: "25.5859403",
-        lon: "85.2306381"
-    }, {
-        id:"hospital9",
-        name: "I-AIM Healthcare Center",
-        image:`${base_url}/image/hospital/9`,
-        city: "kolkata",
-        address: "New Town , Kolkata",
-        pincode: "700065",
-        lat: "25.6039341",
-        lon: "85.1005"
-    }, {
-        id:"hospital10",
-        name: "Nagar Ayurveda",
-        image:`${base_url}/image/hospital/10`,
-        city: "kolkata",
-        address: "Forbesganj , Kolkata",
-        pincode: "700066",
-        lat: "25.3676765",
-        lon: "85.0427802"
-    },
-    {
-        id:"hospital11",
-        name: "Punarnava Ayurveda",
-        image:`${base_url}/image/hospital/11`,
-        city: "kolkata",
-        address: "Javed Colony , Kolkata",
-        pincode: "700065",
-        lat: "25.200279",
-        lon: "84.9845519"
+        map_add:"163/1, Bahadur Shah Zafar Marg, Vikram Nagar, New Delhi, Delhi 110002, India"
     }
 ]
 
 module.exports ={
     kharari,
-    delhi,
-    kolkata
+    delhi
 }

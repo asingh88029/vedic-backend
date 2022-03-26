@@ -9,8 +9,6 @@ router.get("/",(req,res)=>{
        res.status(httpStatus.OK).send(hospitalData.kharari);
     }else if(city==="delhi"){
         res.status(httpStatus.OK).send(hospitalData.delhi);
-    }else if(city==="kolkata"){
-        res.status(httpStatus.OK).send(hospitalData.kolkata);
     }
 });
 
