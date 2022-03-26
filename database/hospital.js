@@ -2,6 +2,7 @@ const config = require("./../src/config/config");
 const base_url = config.base_url;
 const kharari = [
     {
+        id:"hospital1",
         name: "AyurVaid Hospital",
         image:`${base_url}/image/hospital/1`,
         city: "Sasaram",
@@ -10,6 +11,7 @@ const kharari = [
         lat: "24.952430",
         lon: "84.060427"
     }, {
+        id:"hospital2",
         name: "Maharishi Hospital",
         image:`${base_url}/image/hospital/2`,
         city: "Sasaram",
@@ -18,6 +20,7 @@ const kharari = [
         lat: "24.942158",
         lon: "84.021949"
     }, {
+        id:"hospital3",
         name: "Amala Ayurvedic",
         image:`${base_url}/image/hospital/3`,
         city: "kaimur",
@@ -26,6 +29,7 @@ const kharari = [
         lat: "24.948695",
         lon: "84.004085"
     }, {
+        id:"hospital4",
         name: "Sreedhareeyam Research Center",
         image:`${base_url}/image/hospital/4`,
         city: "kaimur",
@@ -38,6 +42,7 @@ const kharari = [
 
 const delhi = [
     {
+        id:"hospital5",
         name: "Soukya Indian Holistic",
         image:`${base_url}/image/hospital/5`,
         city: "delhi",
@@ -46,6 +51,7 @@ const delhi = [
         lat: "28.593735",
         lon: "77.199223"
     }, {
+        id:"hospital6",
         name: "Sahaya Hospital",
         image:`${base_url}/image/hospital/6`,
         city: "delhi",
@@ -54,6 +60,7 @@ const delhi = [
         lat: "28.632314",
         lon: "77.243197"
     }, {
+        id:"hospital7",
         name: "Punarnava Ayurveda",
         image:`${base_url}/image/hospital/7`,
         city: "delhi",
@@ -66,6 +73,7 @@ const delhi = [
 
 const kolkata = [
     {
+        id:"hospital8",
         name: "Kalari Healthcare",
         image:`${base_url}/image/hospital/8`,
         city: "kolkata",
@@ -74,6 +82,7 @@ const kolkata = [
         lat: "25.5859403",
         lon: "85.2306381"
     }, {
+        id:"hospital9",
         name: "I-AIM Healthcare Center",
         image:`${base_url}/image/hospital/9`,
         city: "kolkata",
@@ -82,6 +91,7 @@ const kolkata = [
         lat: "25.6039341",
         lon: "85.1005"
     }, {
+        id:"hospital10",
         name: "Nagar Ayurveda",
         image:`${base_url}/image/hospital/10`,
         city: "kolkata",
@@ -91,6 +101,7 @@ const kolkata = [
         lon: "85.0427802"
     },
     {
+        id:"hospital11",
         name: "Punarnava Ayurveda",
         image:`${base_url}/image/hospital/11`,
         city: "kolkata",
